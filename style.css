@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background: hsl(212, 45%, 89%)
+}
+
+.main-qr{
+    width: 300px;
+    height: 450px;
+    background: white;
+    margin: 120px auto;
+    border-radius: 20px;
+    box-shadow: 2px 3px 6px 4px #a0a0a0;
+}
+
+.main-qr img{
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.main-qr__section{
+    padding: 5px 30px;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-qr__section p{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 800px){
+    
+}
